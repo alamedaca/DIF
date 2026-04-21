@@ -15,12 +15,12 @@ function fmtCurrency(v){
 }
 //added COL increase for 2026
 const DIF_RATES = {
-  "res-sf": { basis:"per-unit", publicSafety:2731, publicFacilities:1768, transportation:2869, parks:10405 },
-  "res-mf": { basis:"per-unit", publicSafety:2167, publicFacilities:1402, transportation:2227, parks:7601 },
+  "res-sf": { basis:"per-unit", publicSafety:2664, publicFacilities:1725, transportation:2799, parks:10151 },
+  "res-mf": { basis:"per-unit", publicSafety:2114, publicFacilities:1368, transportation:2173, parks:7416 },
   "res-adu": { basis:"per-unit", publicSafety:0, publicFacilities:0, transportation:0, parks:0 },
-  "nr-retail": { basis:"per-ksf", publicSafety:602, publicFacilities:390, transportation:5374, parks:0 },
-  "nr-office": { basis:"per-ksf", publicSafety:1105, publicFacilities:711, transportation:5288, parks:0 },
-  "nr-warehouse": { basis:"per-ksf", publicSafety:411, publicFacilities:265, transportation:4450, parks:0 }
+  "nr-retail": { basis:"per-ksf", publicSafety:587, publicFacilities:380, transportation:5243, parks:0 },
+  "nr-office": { basis:"per-ksf", publicSafety:1078, publicFacilities:694, transportation:5159, parks:0 },
+  "nr-warehouse": { basis:"per-ksf", publicSafety:401, publicFacilities:259, transportation:4341, parks:0 }
 };
 
 function calcDIFAmounts(){
